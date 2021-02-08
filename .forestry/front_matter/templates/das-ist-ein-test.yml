@@ -17,3 +17,5 @@ fields:
     schema:
       format: markdown
   label: here goes text
+pages:
+- Test/Test.md
