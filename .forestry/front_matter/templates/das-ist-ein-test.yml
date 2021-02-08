@@ -1,4 +1,19 @@
 ---
 label: Das ist ein Test
 hide_body: true
-fields: []
+fields:
+- name: bild
+  type: file
+  config:
+    maxSize: 64
+  label: Bild
+  default: "/assets/images/1.jpg"
+- name: here_goes_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: here goes text
